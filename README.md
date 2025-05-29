@@ -3,7 +3,7 @@
 This repository contains a Simulink-based Hardware-in-the-Loop (HIL) model for validating the Steering Column Control Module (SCCM).
 
  Components
-- SCCM_PlantModel.slx: Simulates physical switches, paddles, steering rotation.
+- `SCCM_PlantModel.slx`: Simulates physical switches, paddles, steering rotation.
 - `SCCM_SignalRouting.slx`: Routes and transforms signals for HIL compatibility.
 - `SCCM_Testbench.slx`: Top-level test model including logging and stimuli.
 - `SCCM_DataDictionary.sldd`: Contains signal metadata and calibration parameters.
